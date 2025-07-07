@@ -1,4 +1,4 @@
-import '@/assets/styles/global.scss';
+import '@/assets/styles/global.css';
 
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, setRequestLocale } from 'next-intl/server';
