@@ -9,12 +9,5 @@ export default {
   theme: {
     extend: {},
   },
-  module: {
-    rules: [
-      {
-        test: /\.scss$/,
-        use: ['style-loader', 'css-loader', 'sass-loader'],
-      },
-    ],
-  },
+  module: {},
 } satisfies Config;
